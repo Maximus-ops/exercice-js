@@ -1,0 +1,24 @@
+body{
+    margin: auto;
+    text-align: center;
+}
+h1{
+    font-size: 10em;
+}
+.oka{
+    color: rgb(255, 165, 0);
+}
+.cod{
+    color: rgb(152, 251, 152);
+}
+.o{
+    color: rgb(125, 125, 224);
+}
+.n{
+    color: rgb(214, 95, 95);
+}
+
+p{
+    font-size: 4em;
+    font-family: 'Courier New', Courier, monospace;
+}

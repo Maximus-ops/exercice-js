@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>M&M port </title>
+</head>
+<body>
+
+    <h1><span class="oka">OKA</span> <span class="cod">Cod'</span> <span class="o">o</span> <span class="n">n</span> </h1>
+    <p>Payons nos factures avec le Code</p>
+
+<script>
+    //Episode 1
+    console.log ("Mbolo js");
+
+</script>
+
+<script>
+    //Episode 2
+
+    var nom = prompt("veuillez saisir votre nom");
+
+      alert ("Bonjour " + nom );
+
+</script>
+
+<script>
+    //Episode 3
+      alert("Nous allons effectuer quelques testes en mathematique pour nous aider clique sur ok et suivez les instructions, commençons par l'addition ")
+
+    var nombre1 = parseInt(prompt("veuillez entrer un nombre :")); 
+
+    while(isNaN(nombre1)){
+    nombre1 = parseInt(prompt("Pourquoi tu fais ça type ? donne un nombre on va quitter ici  :"));
+    }
+
+
+    var nombre2 = parseInt(prompt("veuillez entrer un second nombre :"));
+
+
+    while(isNaN(nombre2)){
+    nombre2 = parseInt(prompt("l'erreur est humaine saisi un nombre"));
+    }
+
+    var somme = nombre1 + nombre2;
+ 
+       alert(nombre1 + ' + ' + nombre2 + ' = ' + somme);
+
+    
+</script>
+
+<script>
+    // Episode 4
+    var  valeur1  =  "Arsene"  ,  valeur2  =  "Maximus"  ,  Valeur3 ; 
+
+   valeur3  =  valeur1 ;
+   valeur1  =  valeur2 ;
+   valeur2  =  Valeur3 ;
+
+    console.log ( "la variable valeur1 après permutation est :"  +  valeur1  + 
+    "\nla valeur de la variable valeur2 après permutation est :"  +  valeur2 ) ; 
+    
+</script>
+
+<script>
+    // Episode 5
+
+    var multipli1 = parseInt(prompt("proposer moi un nombre et vous aurez son double :"));
+
+    var multipli2 = multipli1 * 2;
+
+   while(isNaN(multipli1)){
+    multipli1 = parseInt(prompt("erreur veuillez recommencer s'il vous plait:"));
+   }
+ 
+       alert("le double de ce nombre est : "  + multipli2 );
+
+</script>
+
+<script>
+    // episode 6
+
+       alert("Nous allons calculer ta moyenne en nous servant de tes 3 matieres de base ")
+
+    var moyenne1 = parseInt(prompt("veuillez votre premiere note :"));
+
+    while(isNaN(moyenne1)){
+    moyenne1 = parseInt(prompt("ah ah ah tu voulais jouer au plus malin aller recommence :"));
+    }
+
+  var moyenne2 = parseInt(prompt("veuillez entrer seconde note :"));
+
+    while(isNaN(moyenne2)){
+    moyenne2 = parseInt(prompt("Tu vois comment tu es ??? :"));
+    }
+
+var moyenne3 = parseInt(prompt("veuillez entrer une troisieme notre :"));
+
+    while(isNaN(moyenne3)){
+    moyenne3 = parseInt(prompt("ça c'est l'orgueil maintenant :"));
+    }
+    var moyenne4 = (moyenne1 + moyenne2 + moyenne3) / 3;
+
+        alert(" la moyenne des nombres saisis est : " + moyenne4 );
+ 
+</script>
+
+<script>
+    // Episode 7
+
+        alert("continuons ainsi mais un instant il nous faut quelque chose en plus pour un meilleur programme, clique sur ok pour continuer");
+
+    var age = parseInt(prompt("veuillez entrer votre age :"));
+     if (age < 18 ){
+         
+        alert ("Vous etes mineur, je vais appeler tes parents");
+     }
+     else {
+        alert ("Tres bien vous etes majeur");
+     }
+</script>
+
+<script>
+    //Episode 8
+   var sexe = prompt("veuillez saisir votre sexe");
+
+
+   if (sexe != "homme" || sexe !="femme"){
+    var sexe = prompt("chelou comme sexe, veuillez saisir homme ou femme ");
+   }
+
+   if (sexe == "homme"){
+       alert("Bonjour Monsieur");
+   
+   }
+   else if(sexe == "femme"){
+       alert("Bonjour Madame");
+   }
+   
+
+</script>
+
+<script>
+    // Episode 9
+    
+    var appreciation = parseInt(prompt("Entrer votre moyenne de ce trimestre :"));
+
+
+    if(appreciation ==0 || appreciation <= 9){
+    alert( "Faible " );
+
+    } else if( appreciation == 10 || appreciation < 11){
+    alert("Passable");
+
+    } else if(appreciation == 12 || appreciation <= 13) {
+    alert(" Assez bien");
+
+    }else if(appreciation ==14 || appreciation <= 16){
+    alert(" Bien");
+
+    }else if( appreciation == 17 || appreciation <= 18){
+    alert(" Très bien");
+
+    } else if (appreciation == 19 || appreciation <= 20) {
+    alert(" Excellent");
+    }
+    else{
+        var appreciation = parseInt(prompt("Entrer votre moyenne de ce trimestre :"));
+    }
+</script>
+
+<script>
+    // Episode 10
+
+    alert("faites vos course chez nous et beneficier de 10% de remise à partir de 40.000fr d'achats");
+
+    var montant = parseInt(prompt("Entrer le montant total de vos course :"));
+
+    var remise = (montant*10)/100;
+
+    if(montant >40000){
+    alert("vous avez une remise de : " + remise + "fr");
+    } else {
+    alert("le  montant de votre facture est inférieur à 40.000fr, pour beneficier d'une remise de 10% votre total doit etre superieur ou egal à 40.000fr");
+    }
+    alert("respectez les mesures barriere, bon retour à la maison");
+</script>
+
+<script>
+    // Episode 11
+
+
+</script>
+
+</body>
+</html>
